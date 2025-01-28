@@ -36,8 +36,8 @@ export const Subtitle = styled.p`
 `;
 
 export const ContactLink = styled.a`
-  color: ${({ theme }) => theme.COLORS.BRAND_LIGHT};
-  font-size: ${({ theme }) => theme.FONT_SIZE.XL}px;
+  color: ${({ theme }) => theme.COLORS.BRAND_MID};
+  font-size: ${({ theme }) => theme.FONT_SIZE.MD}px;
   font-weight: ${({ theme }) => theme.FONT_FAMILY.BOLD};
   text-align: center;
 `;

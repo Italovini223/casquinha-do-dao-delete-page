@@ -69,7 +69,7 @@ export function DeleteUser() {
         />
 
         <Subtitle>
-          Desenvolvido por <ContactLink href="italovinicius2018@gmail.com"> Ítalo Vinícius de Bessa</ContactLink>
+          Desenvolvido por <ContactLink href="mailto:italovinicius2018@gmail.com">Ítalo Vinícius de Bessa</ContactLink>
         </Subtitle>
 
       </Content>
