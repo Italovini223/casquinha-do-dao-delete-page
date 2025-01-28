@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const Container = styled.div`
@@ -23,6 +24,20 @@ export const Content = styled.div`
 export const Title = styled.h1`
   color: ${({ theme }) => theme.COLORS.BRAND_LIGHT};
   font-size: ${({ theme }) => theme.FONT_SIZE.XXXL}px;
+  font-weight: ${({ theme }) => theme.FONT_FAMILY.BOLD};
+  text-align: center;
+`;
+
+export const Subtitle = styled.p`
+  color: ${({ theme }) => theme.COLORS.BRAND_LIGHT};
+  font-size: ${({ theme }) => theme.FONT_SIZE.MD}px;
+  font-weight: ${({ theme }) => theme.FONT_FAMILY.REGULAR};
+  text-align: center;
+`;
+
+export const ContactLink = styled.a`
+  color: ${({ theme }) => theme.COLORS.BRAND_LIGHT};
+  font-size: ${({ theme }) => theme.FONT_SIZE.XL}px;
   font-weight: ${({ theme }) => theme.FONT_FAMILY.BOLD};
   text-align: center;
 `;

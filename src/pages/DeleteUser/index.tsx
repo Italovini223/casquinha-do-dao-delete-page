@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { Container, Content, Title } from "./styles";
+import { Container, Content, Title, Subtitle, ContactLink } from "./styles";
 
 import { InputComponent  } from "../../components/Input";
 import { Button } from "../../components/Button";
@@ -45,6 +45,7 @@ export function DeleteUser() {
 
       <IceCream size={100} color={COLORS.BRAND_LIGHT} />
 
+      <Title>Casquinha do dão</Title>
       <Title>Deletar Usuário</Title>
         
         <InputComponent 
@@ -66,6 +67,10 @@ export function DeleteUser() {
             handleDeleteAlert();
           }}
         />
+
+        <Subtitle>
+          Desenvolvido por <ContactLink href="italovinicius2018@gmail.com"> Ítalo Vinícius de Bessa</ContactLink>
+        </Subtitle>
 
       </Content>
     </Container>
